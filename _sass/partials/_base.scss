@@ -1,0 +1,155 @@
+/**
+ * Basic styling
+ */
+body {
+  @include sans-serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  box-sizng: border-box;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+// h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+ * Headings
+ */
+
+h1 {
+  font-size: $xlarge-font-size;
+  @include sans-serif-bold;
+  line-height: 1.2;
+}
+h2 {
+  font-size: $large-font-size;
+  @include sans-serif-bold;
+}
+h3 {
+  font-size: $medium-font-size;
+  @include sans-serif-bold;
+  margin-top: 45px;
+  letter-spacing: .03em;
+}
+h4 {
+  font-size: $base-font-size;
+  @include sans-serif-medium;
+  letter-spacing: .03em;
+  margin-top: $spacing-unit;
+}
+
+p{
+  @include BigBody;
+}
+
+.sansMedium{
+  @include sans-serif-medium;
+}
+
+.sansMedium{
+  @include sans-serif-medium;
+}
+
+.spacing{
+  margin-top: $spacing-unit * 4;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.margBot{
+  margin-bottom: $spacing-unit;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: $maxWidth;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit ;
+    padding-left: $spacing-unit ;
+  }
+
+  @include above-query($maxWidth){
+    width: $content-width;
+  }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

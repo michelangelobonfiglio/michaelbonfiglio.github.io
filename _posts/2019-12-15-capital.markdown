@@ -1,0 +1,123 @@
+---
+layout: post
+title:  Capital Design System
+description: Define the vision and foundations for a scalable and modular design system that reflects an updated visual language for OpenGov.
+cat: OpenGov
+tags: Product Design, Application, UX/UI, Interaction, OpenGov
+thumb: thumb-capital.png
+---
+<section  markdown="1">
+## Basics
+</section>
+<section class="basics">
+
+
+<div  markdown="1">
+
+<h4>Problem</h4>
+This was a design-driven project that helped solve many organizational issues. We had all the standard problems that a design system helps solve: inconsistent experiences across applications, developers duplicating work for standard components, a lack of a framework to make design decisions within, and a look and feel that many felt didn’t reflect our brand or what we wanted our brand to be. And so we endeavored to make a design system.
+
+Design systems are organisms that span the lifetime of a company. Making a design system is really a process that does not end. This project was about breaking ground and laying the foundations that have taken us into the present.
+
+</div>
+<div markdown="1">
+#### Role
+- Strategy
+- Research
+- System Design
+- Interaction Design
+- Visual Design
+
+#### Goals
+- Increase speed, efficiency, and quality
+- Visuals that speak to customers and provide a competitive edge
+- Reusable, responsive, and scalable components and patterns
+</div>
+</section>
+
+
+<section  markdown="1">
+## Process
+To keep pace, the original pilot was time-boxed to 12 week and followed a garden variety design process.
+
+![Discover, Explore, Design, Document](/assets/images/capital/process.png)
+</section>
+
+<section  markdown="1">
+### You are here
+We collected our products, style guides, and other reference documents.
+
+![Products and style guides](/assets/images/capital/discover-audit.png)
+
+</section>
+
+<section  markdown="1">
+
+As well as stakeholder and customer feedback.
+
+![It feels like any other startup](/assets/images/capital/quotes.png)
+
+</section>
+
+<section  markdown="1">
+
+Through this we developed a definition of what OpenGov should feel like:
+
+![Credible, Powerful, Helpful, Smart](/assets/images/capital/discover-principles.png)
+
+</section>
+
+<section  markdown="1">
+
+### Explore
+Now with guiding principles, we began exploring visual treatments.
+
+![Explore visuals](/assets/images/capital/explore-visuals.png)
+
+</section>
+
+<section  markdown="1">
+
+### Design
+We focused on 3 high-impact choices: Typography, Color, and Holistic Experiences.
+
+![Type](/assets/images/capital/define-type.png)
+
+![Color](/assets/images/capital/define-color.png)
+
+![Holistic Experiences](/assets/images/capital/define-holistic.png)
+
+</section>
+
+<section  markdown="1">
+
+Systems need rules. So we looked for organic patterns: applying them across the system and then writing the rule.
+
+![States](/assets/images/capital/design-states.png)
+
+</section>
+
+<section  markdown="1">
+
+### Document
+It was important for our documentation to be easy to access and update, so we opted for a combination of google docs and sketch.
+
+![Google Doc](/assets/images/capital/document.png)
+
+</section>
+
+<section  markdown="1">
+## Results
+The pilot produced a system which then needed to be built and evolved. Today, the system continues to grow with the help of many designers and engineers.
+
+<div class="col-2" markdown="1">
+![Report](/assets/images/capital/results-report.png)
+
+![Dashboard](/assets/images/capital/results-dashboard.png)
+
+![Budget](/assets/images/capital/results-budget.png)
+
+![Story](/assets/images/capital/results-story.png)
+</div>
+
+</section>

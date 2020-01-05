@@ -1,0 +1,117 @@
+---
+layout: post
+title:  Next Gen Reports
+description: Design a scalable replacement for our reporting tool to help governments analyze, understand, and share data.
+cat: OpenGov
+tags: Product Design, Application, UX/UI, Interaction, OpenGov
+thumb: thumb-report.png
+---
+
+<section  markdown="1">
+## Basics
+</section>
+
+<section class="basics">
+<div  markdown="1">
+
+<h4>Problem</h4>
+<p class="detail">Our tool for reporting was actually 3 very different tools taped together. Each originally intended for very specific use-cases like light exploration of financial summaries. As time went on it was pushed around, stretched, and shoved into use-cases it wasn't designed or built to scale to. And so we decided to invest in a refactor of the tech and the UX.</p>
+
+<p class="detail">Rebuilding mature products takes years. So our charter was to set up architecture and frameworks that could scale from the knew to the new. </p>
+
+<p class="detail">No pressure.</p>
+</div>
+<div markdown="1">
+#### Role
+- Research
+- Prototyping
+- Interaction Design
+- Visual Design
+
+#### Goals
+- A consistent, unified experience
+- Speak the user’s language
+- Prioritize flexibility and scale
+</div>
+</section>
+
+![three report apps](/assets/images/nextgen/three-apps@2x.jpg)
+
+
+
+<section  markdown="1">
+## Process
+The organizational focus needed for an application refactor was hard to get and hard to keep. The program stalled a few times and shifted priority areas, all while a game of teammate musical chairs was happening in the background.
+
+![Process](/assets/images/nextgen/process.png)
+
+</section>
+
+<section  markdown="1">
+
+### Research Insights
+Because of the long lead time we were able to do consistent research and exploration with customers and customer success.
+
+![What am I looking at](/assets/images/nextgen/research-what.png)
+
+#### What am I looking at?
+<p class=detail>The key clues to understand a report were scattered across the screen, and sometimes even hidden.</p>
+
+#### Analysis Paralysis
+<p class=detail>In the real world reports are paper, locked in, official. In OpenGov reports were always in an editable state, bells and whistles abounded. Customers missed some of the fixed elements of their old world.</p>
+
+#### Everyone wants to be a designer
+<p class=detail>Over and over we heard customers request the ability to control more of the presentation of their graphs and tables.</p>
+
+</section>
+
+<section  markdown="1">
+
+### Do you understand me?
+To address understandability we tried out different composition and language models, ultimately developing a mad-libs approach.
+![excel prototype](/assets/images/nextgen/explore-control.png)
+
+</section>
+
+<section  markdown="1">
+
+### Time Travel
+We teased out that time and summation was connected in the minds of users, but the exact interaction wasn't clear without extensive prototypes.
+![Total and Range menu](/assets/images/nextgen/explore-range.png)
+
+</section>
+
+<section  markdown="1">
+
+## Results
+![Views tab](/assets/images/nextgen/results-composition.png)
+</section>
+
+<section  markdown="1">
+
+### Composition with a mission
+We introduced a clearer hierarchy and more traditional, top-to-bottom, information architecture. Content followed more of an “F-shaped” pattern.
+
+<div class="f-shape">
+  <img src="/assets/images/nextgen/results-f-shape.png" alt="f shape pattern" class="image" style="width:100%">
+</div>
+
+</section>
+
+<section  markdown="1">
+
+### Collecting Controls
+We grouped commonly used but previously scattered controls, which were now written as a sentence with language familiar to governments.
+
+![Controls](/assets/images/nextgen/results-controls.png)
+
+</section>
+
+<section  markdown="1">
+
+### Edit? Forget it
+Views were the vehicle to share insights, but there was no way to edit them. So we added an editing experience.
+
+![Editing](/assets/images/nextgen/results-editing.png)
+
+</section>

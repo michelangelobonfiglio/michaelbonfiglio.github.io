@@ -1,0 +1,111 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+navigation_weight: 4
+images:
+  - image_path: /assets/images/gallery/gyres-current-map.jpg
+    row: a
+    col: a1
+  - image_path: /assets/images/gallery/gyres-graphic-3.png
+    row: a
+    col: a2
+
+  - image_path: /assets/images/gallery/building-covers2.jpg
+    row: b
+    col: b1
+  - image_path: /assets/images/gallery/building-spread-1.jpg
+    row: b
+    col: b2
+  - image_path: /assets/images/gallery/building-spread-4.jpg
+    row: b
+    col: b3
+
+  - image_path: /assets/images/gallery/maps-spread-1.jpg
+    row: d
+    col: d1
+  - image_path: /assets/images/gallery/maps-spread-3-4.jpg
+    row: d
+    col: d2
+
+  - image_path: /assets/images/gallery/maps-spread-3-5.jpg
+    row: dd
+
+  - image_path: /assets/images/gallery/maps-spread-3-1.jpg
+    row: e
+    col: e1
+  - image_path: /assets/images/gallery/maps-spread-3-2.jpg
+    row: e
+    col: e2
+
+  - image_path: /assets/images/gallery/eja-twitter.jpg
+    row: f
+    col: f1
+  - image_path: /assets/images/gallery/joyce.png
+    row: f
+    col: f2
+
+  - image_path: /assets/images/gallery/flea-poster.jpg
+    row: g
+    col: g1
+  - image_path: /assets/images/gallery/eclipse_V2015.jpg
+    row: g
+    col: g2
+
+  - image_path: /assets/images/gallery/italy-2.png
+    row: h
+    col: h1
+  - image_path: /assets/images/gallery/flea-formation.svg
+    row: h
+    col: h2
+
+
+  - image_path: /assets/images/gallery/anti-app-reality.jpg
+    row: i
+    col: i1
+  - image_path: /assets/images/gallery/anti-app-dir.jpg
+    row: i
+    col: i2
+
+  - image_path: /assets/images/gallery/anti-app-add.jpg
+    row: j
+    col: j1
+  - image_path: /assets/images/gallery/anti-giftshop.jpg
+    row: j
+    col: j2
+
+  - image_path: /assets/images/gallery/posters-front-back.jpg
+    row: k
+
+  - image_path: /assets/images/gallery/posters-spreads-1.jpg
+    row: l
+    col: l1
+  - image_path: /assets/images/gallery/posters-spreads-2.jpg
+    row: l
+    col: l2
+  - image_path: /assets/images/gallery/posters-spreads-3.jpg
+    row: l
+    col: l3
+
+  - image_path: /assets/images/gallery/decker-responsive1.jpg
+    row: m
+
+  - image_path: /assets/images/gallery/set-contact.jpg
+    row: n
+---
+<section class="post-header">
+  <h1 class="post-title">Gallery</h1>
+  <p>Uncontextualized work, because sometimes you just want to look at pictures...</p>
+</section>
+
+<ul class="gallery">
+  {% for image in page.images %}
+    <li class="{{ image.row}} {{ image.col}}"><img src="{{ image.image_path }}" /></li>
+  {% endfor %}
+</ul>
+
+
+<!-- <section class="flexy">
+  <img src="/assets/images/gallery/gyres-current-map.jpg">
+  <img src="/assets/images/gallery/gyres-graphic-3.png">
+</section> -->

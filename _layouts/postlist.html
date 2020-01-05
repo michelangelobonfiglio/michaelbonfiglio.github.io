@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="post-title">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+    <section class="post-list">
+      {%- for post in site.posts -%}
+      <a  href="{{ post.url | relative_url }}" class=project-card>
+        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <img src="{{site.url}}/assets/images/thumbs/{{ post.thumb }}" alt="">
+        <div>
+          <h3 class="post-link">
+              {{ post.title | escape }}
+          </h3>
+          <p>{{ post.description }}</p>
+        </div>
+      </a>
+      {%- endfor -%}
+    </section>
+
+  {%- endif -%}
+
+</div>

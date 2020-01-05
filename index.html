@@ -1,0 +1,46 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+<script>
+  function myFunction() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied: " + copyText.value;
+  }
+
+</script>
+
+<main class=home>
+  <section class="home_header">
+    <a class="home_site-title" rel="author" href="{{ "/" | relative_url }}">
+    <h1>{{ site.title | escape }}</h1>
+    </a>
+
+    <p>Michael is a… sorry, I’m not sure why I’m  speaking in third person. I’m a designer based in San Francisco. I’m available for design projects, design roles, and design jokes.</p>
+    <input type="text" value="michaelbonfiglio@gmail.com" id="myInput">
+    <div class="tooltip">
+      <button class="toolButton" onclick="myFunction()"><span class="tooltiptext" id="myTooltip">Copy email address</span>Talk to me.</button>
+    </div>
+
+    <ul>
+      <li><a href="/assets/MBonfiglio_Resume.pdf">Resume</a></li>
+      <li><a href="http://twitter.com/michaelbonbon" target="_blank">Twitter</a></li>
+      <li><a href="http://www.linkedin.com/in/mbonfiglio" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/michaelbonfiglio" target="_blank">Github</a></li>
+    </ul>
+  </section>
+  <section class="home_navigation">
+    <h2>What do you want to do?</h2>
+    <a class="button" href="{% link about.html %}" >Read more about this Michael fellow</a>
+    <a class="button" href="{% link projects.html %}">Go in depth on projects</a>
+    <a class="button" href="{% link process.html %}">Understand Michael’s process</a>
+    <a class="button" href="{% link gallery.html %}" >Just look at goodies</a>
+  </section>
+</main>
