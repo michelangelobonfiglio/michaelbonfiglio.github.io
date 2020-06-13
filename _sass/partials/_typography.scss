@@ -2,60 +2,6 @@
 * Typography
 */
 
-@font-face {
-      font-family: 'Tiempos Regular';
-      //src: url('../fonts/TiemposTextWeb-Regular.eot');
-      src: url($fontUrl + 'fonts/TiemposTextWeb-Regular.eot');
-      src: url($fontUrl + 'fonts/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'),
-             url($fontUrl + 'fonts/TiemposTextWeb-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-@font-face {
-      font-family: 'Tiempos Black';
-      src: url($fontUrl + 'fonts/TiemposHeadlineWeb-Black.eot');
-      src: url($fontUrl + 'fonts/TiemposHeadlineWeb-Black.eot?#iefix') format('embedded-opentype'),
-             url($fontUrl + 'fonts/TiemposHeadlineWeb-Black.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-
- @font-face {
-      font-family: 'Tiempos Semibold';
-      src: url($fontUrl + 'fonts/TiemposTextWeb-Semibold.eot');
-      src: url($fontUrl + 'fonts/TiemposTextWeb-Semibold.eot?#iefix') format('embedded-opentype'),
-             url($fontUrl + 'fonts/TiemposTextWeb-Semibold.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
-  }
-
-
- @font-face {
-      font-family: 'Trade Gothic Light';
-      src: url($fontUrl + 'fonts/2D077B_0_0.eot');
-      src: url($fontUrl + 'fonts/2D077B_0_0.eot?#iefix') format('embedded-opentype'),
-             url($fontUrl + 'fonts/2D077B_0_0.woff2') format('woff2'),
-             url($fontUrl + 'fonts/2D077B_0_0.woff') format('woff'),
-             url($fontUrl + 'fonts/2D077B_0_0.ttf') format('truetype'),
-             url($fontUrl + 'fonts/2D077B_0_0.svg#font-name') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-
-  @font-face {
-      font-family: 'Trade Gothic Bold';
-      src: url($fontUrl + 'fonts/2D077B_1_0.eot');
-      src: url($fontUrl + 'fonts/2D077B_1_0.eot?#iefix') format('embedded-opentype'),
-             url($fontUrl + 'fonts/2D077B_1_0.woff2') format('woff2'),
-             url($fontUrl + 'fonts/2D077B_1_0.woff') format('woff'),
-             url($fontUrl + 'fonts/2D077B_1_0.ttf') format('truetype'),
-             url($fontUrl + 'fonts/2D077B_1_0.svg#font-name') format('svg');
-      font-weight: bold;
-      font-style: normal;
-  }
 
 
 // font stacks
@@ -66,12 +12,6 @@
 }
 
 @mixin sans-serif{
-	// font-family: "Trade Gothic Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	// font-weight: normal;
-  //  	font-style: normal;
-    // font-family: titling-gothic-fb-narrow, sans-serif;
-    // font-weight: 300;
-    // font-style: normal;
     font-family: titling-gothic-fb, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -85,29 +25,14 @@ font-variant-alternates: ornaments;
 }
 
 @mixin sans-serif-bold{
-	// font-family: "Trade Gothic Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	// font-weight: bold;
-  //   font-style: normal;
   font-family: titling-gothic-fb-narrow, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-variant-alternates: ornaments
   }
 
-// @mixin serif{
-// 	font-family: "Tiempos Regular", "Georgia", Times, serif;
-// 	font-weight: normal;
-//    	font-style: normal;
-// }
-//
-// @mixin serif-bold{
-// 	font-family: "Tiempos Semibold", "Georgia", Times, serif;
-// 	font-weight: bold;
-//     font-style: normal;
-// }
-//
-// @mixin serif-black{
-// 	font-family: "Tiempos Black", "Georgia", Times, serif;
-// 	font-weight: normal;
-//    	font-style: normal;
-// }
+  @mixin sans-serif-skyline{
+    font-family: titling-gothic-fb-skyline, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    }

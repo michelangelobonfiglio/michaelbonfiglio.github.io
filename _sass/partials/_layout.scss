@@ -11,20 +11,25 @@ header {
 }
 
 .site-title {
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 0;
+  margin-right: 40px;
   float: left;
   color: $white;
-  @include sans-serif-bold;
-  font-size: 26px;
+  @include sans-serif-skyline;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 32px;
   font-variant-ligatures: common-ligatures;
   -moz-font-feature-settings: "liga", "clig";
   -webkit-font-feature-settings: "liga", "clig";
   font-feature-settings: "liga", "clig";
   border-bottom: 3px solid transparent;
 
-  @include above-query($on-palm) {
-    font-size: 28px;
+  @include above-query($on-laptop) {
+    font-size: 40px;
+    margin-right: 0;
+    line-height: 1.2;
   }
 
   &,
@@ -79,7 +84,7 @@ header {
 
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     position: absolute;
     top: 32px;
     right: 20px;
@@ -241,27 +246,28 @@ main.home{
 
 
      &:hover {
-       text-decoration: none;
-       border-bottom: 3px solid #B5B9BD;
+       text-decoration: underline;
+       //border-bottom: 3px solid #B5B9BD;
      }
    }
 
      .home_site-title h1 {
-       @include sans-serif-bold;
-       font-size: $xlarge-font-size;
+       @include sans-serif-skyline;
+       font-size: 60px;
        display: block;
+       text-transform: uppercase;
+       letter-spacing: .05em;
        font-variant-ligatures: common-ligatures;
        -moz-font-feature-settings: "liga", "clig";
        -webkit-font-feature-settings: "liga", "clig";
         font-feature-settings: "liga", "clig";
-        margin-bottom: 8px;
       }
 
   p {
-    max-width: 80%;
-    margin-top: 40px;
+
+    margin-top: 20px;
     letter-spacing: .02em;
-    font-size: 24px;
+    font-size: 16px;
   }
 
   ul {
@@ -346,6 +352,8 @@ main.home{
 
    p {
      margin-top: 150px;
+     font-size: 24px;
+     max-width: 80%;
    }
 
    .home_navigation{
