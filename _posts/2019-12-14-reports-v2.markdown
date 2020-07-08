@@ -21,6 +21,7 @@ thumb: thumb-report.png
 
 <p class="detail">No pressure.</p>
 </div>
+
 <div markdown="1">
 #### Role
 - Research
@@ -55,13 +56,13 @@ Because of the long lead time we were able to do consistent research and explora
 ![What am I looking at](/assets/images/nextgen/research-what.png)
 
 #### What am I looking at?
-<p class=detail>The key clues to understand a report were scattered across the screen, and sometimes even hidden.</p>
+<p class="detail">The key clues to understand a report were scattered across the screen, and sometimes even hidden.</p>
 
 #### Analysis Paralysis
-<p class=detail>In the real world reports are paper, locked in, official. In OpenGov reports were always in an editable state, bells and whistles abounded. Customers missed some of the fixed elements of their old world.</p>
+<p class="detail">In the real world reports are paper, locked in, official. In OpenGov reports were always in an editable state, bells and whistles abounded. Customers missed some of the fixed elements of their old world.</p>
 
 #### Everyone wants to be a designer
-<p class=detail>Over and over we heard customers request the ability to control more of the presentation of their graphs and tables.</p>
+<p class="detail">Over and over we heard customers request the ability to control more of the presentation of their graphs and tables.</p>
 
 </section>
 

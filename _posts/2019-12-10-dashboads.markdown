@@ -61,7 +61,7 @@ We were lucky to have an unusual amount of access to customers so we met with ea
 
 ![create and learn](/assets/images/dashboards/explore-process.png)
 
-<div class=dash_process markdown="1">
+<div class="dash_process" markdown="1">
 
 <div markdown="1">
 #### Exploration
