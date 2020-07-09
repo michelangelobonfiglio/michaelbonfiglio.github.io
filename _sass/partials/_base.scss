@@ -48,12 +48,10 @@ h3 {
   font-size: $medium-font-size;
   @include sans-serif-bold;
   margin-top: 45px;
-  letter-spacing: .03em;
 }
 h4 {
   font-size: $base-font-size;
   @include sans-serif-medium;
-  letter-spacing: .03em;
   margin-top: $spacing-unit;
 }
 

@@ -5,34 +5,64 @@
 
 
 // font stacks
+// @mixin sans-serif-light{
+//     font-family: titling-gothic-fb, sans-serif;
+//     font-weight: 200;
+//     font-style: normal;
+// }
+//
+// @mixin sans-serif{
+//     font-family: titling-gothic-fb, sans-serif;
+//     font-weight: 300;
+//     font-style: normal;
+// }
+//
+// @mixin sans-serif-medium{
+// font-family: titling-gothic-fb-narrow, sans-serif;
+// font-weight: 500;
+// font-style: normal;
+// font-variant-alternates: ornaments;
+// }
+//
+// @mixin sans-serif-bold{
+//   font-family: titling-gothic-fb-narrow, sans-serif;
+//   font-weight: 700;
+//   font-style: normal;
+//   font-variant-alternates: ornaments
+//   }
+//
+// @mixin sans-serif-skyline{
+//   font-family: titling-gothic-fb-skyline, sans-serif;
+//   font-weight: 500;
+//   font-style: normal;
+//   }
+
 @mixin sans-serif-light{
-    font-family: titling-gothic-fb, sans-serif;
-    font-weight: 200;
+    font-family: interstate, 'Roboto', sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
 @mixin sans-serif{
-    font-family: titling-gothic-fb, sans-serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: interstate, 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @mixin sans-serif-medium{
-font-family: titling-gothic-fb-narrow, sans-serif;
-font-weight: 500;
-font-style: normal;
-font-variant-alternates: ornaments;
+  font-family: interstate, 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @mixin sans-serif-bold{
-  font-family: titling-gothic-fb-narrow, sans-serif;
-  font-weight: 700;
+  font-family: interstate, 'Roboto', sans-serif;
+  font-weight: 900;
   font-style: normal;
-  font-variant-alternates: ornaments
   }
 
-  @mixin sans-serif-skyline{
-    font-family: titling-gothic-fb-skyline, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    }
+@mixin sans-serif-skyline{
+  font-family: interstate-compressed, 'Anton', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  }

@@ -1,13 +1,11 @@
 @mixin LightBody {
   @include sans-serif-light;
   font-size: $base-font-size;
-  letter-spacing: .015em;
 }
 
 @mixin BigBody {
   @include sans-serif;
   font-size: $medium-font-size;
-  letter-spacing: .015em;
 }
 
 @mixin SmallBody {
